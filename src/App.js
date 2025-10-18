@@ -16,6 +16,7 @@ import Cart from "../src/pages/cart.jsx";
 import Smartphones from "../src/Catpages/smartphones.jsx";
 import Laptop from "../src/Catpages/laptop.jsx";
 import Swatch from "../src/Catpages/swatch.jsx";
+import DetailsPage from "../src/pages/detailspg.jsx";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -67,6 +68,8 @@ function App() {
         <Route path="/smartphones" element={<Smartphones />} />
         <Route path="/laptop" element={<Laptop />} />
         <Route path="/swatch" element={<Swatch />} />
+        <Route path="/detailspg" element={<DetailsPage />} />
+        <Route path="/wishlist" element={<Wishlist />} />
       </Routes>
 
       <Footer />

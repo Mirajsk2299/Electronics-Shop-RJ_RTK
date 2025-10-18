@@ -6,18 +6,18 @@ import watch from "../assets/home-watch.jpg";
 
 const Landingimg = () => {
   return (
-    <div class="parent">
-      <div class="child-one">
-        <img src={phone} className="big-img" />
+    <div className="parent">
+      <div className="child-one">
+        <img src={phone} className="big-img" alt="Loading..." />
         <div className="img-text">
           <h3>Buy Smartphones</h3>
           <p>Discover the latest smartphones at unbeatable prices!</p>
           <button>Explore More →</button>
         </div>
       </div>
-      <div class="child-two">
-        <img src={buds} className="small-img" />
-        <img src={watch} className="small-img" />
+      <div className="child-two">
+        <img src={buds} className="small-img" alt="Loading..." />
+        <img src={watch} className="small-img" alt="Loading..." />
       </div>
     </div>
   );

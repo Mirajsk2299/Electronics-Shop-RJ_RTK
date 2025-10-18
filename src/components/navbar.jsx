@@ -1,14 +1,23 @@
-import React from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import React, { useContext } from "react";
+import { useNavigate, useLocation, Link } from "react-router-dom";
 import "../styles/components.css";
-import { Link } from "react-router-dom";
 import Electro from "../assets/electro.png";
+import { WishlistContext } from "../context/WishlistContext";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart as regularHeart } from "@fortawesome/free-regular-svg-icons";
-import { faRightToBracket } from "@fortawesome/free-solid-svg-icons"; // 👈 import login icon
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import {
+  faRightToBracket,
+  faCartShopping,
+} from "@fortawesome/free-solid-svg-icons";
+
+import { ButtonContext } from "../context/ButtonContext";
 
 const Navbar = () => {
+  const { wishlist } = useContext(WishlistContext);
+  const { cart } = useContext(ButtonContext);
+  const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -28,9 +37,9 @@ const Navbar = () => {
         <div className="app-name">
           <img src={Electro} alt="Logo" className="logo-icon" />
           <p className="name-txt-para">
-            <a href="/">
+            <Link to="/">
               <span className="name-txt"> Electro</span>Mart
-            </a>
+            </Link>
           </p>
         </div>
 
@@ -45,7 +54,6 @@ const Navbar = () => {
           <div className="cnt-left">
             <div className="contact-icon">📞</div>
           </div>
-
           <div className="cnt-right">
             <p>Call To :- +91 9999675543 </p>
             <p>Email :- Info.Electro@gmail.com</p>
@@ -61,7 +69,7 @@ const Navbar = () => {
             </option>
             <option value="/smartphones">Smart Phones</option>
             <option value="/laptop">Laptops</option>
-            <option value="/swatch">Smartwatchs</option>
+            <option value="/swatch">Smartwatches</option>
             <option value="#" style={{ color: "#98999bff" }}>
               Audios
             </option>
@@ -73,6 +81,7 @@ const Navbar = () => {
             </option>
           </select>
         </div>
+
         <div className="nav-btns">
           <ul>
             <li>
@@ -86,46 +95,46 @@ const Navbar = () => {
             )}
 
             <li>
-              <a href="/Hotselling">On Sale</a>
+              <Link to="/hotselling">On Sale</Link>
             </li>
             <li>
               <Link to="/checkout">Checkout</Link>
             </li>
+
             <select className="second-select" onChange={handleredirection}>
               <option className="second-options" value="" hidden>
                 Pages
               </option>
-              <option value="/contact ">Contact Us</option>
+              <option value="/contact">Contact Us</option>
               <option value="/register">Register</option>
-              <option value="/Forgotpass">Forgot Password</option>
+              <option value="/forgot-password">Forgot Password</option>
             </select>
           </ul>
         </div>
 
         <div className="nav-icons">
           <div className="icon-bg">
-            <a href="/wishlist">
+            <Link to="/wishlist">
               <FontAwesomeIcon icon={regularHeart} size="2x" color="black" />
-            </a>
-            <span className="wish-count">3</span>
+            </Link>
+            <span className="wish-count">{wishlist.length}</span>
           </div>
 
           <div className="icon-bg">
-            <a href="/cart">
+            <Link to="/cart">
               <FontAwesomeIcon icon={faCartShopping} size="2x" color="black" />
-            </a>
-
-            <span className="cart-count">3</span>
+            </Link>
+            <span className="cart-count">{totalItems}</span>
           </div>
 
           <div className="icon-bg">
-            <a href="/login">
+            <Link to="/login">
               <FontAwesomeIcon
                 icon={faRightToBracket}
                 size="2x"
                 color="black"
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
