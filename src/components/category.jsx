@@ -17,7 +17,7 @@ const Category = () => {
         style={{ backgroundImage: `url(${Phone})` }}
       >
         <button
-          className="category-btn"
+          className="category-btn "
           onClick={() => navigate("/smartphones")}
         >
           Smart Phones

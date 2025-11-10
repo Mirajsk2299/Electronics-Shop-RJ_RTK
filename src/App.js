@@ -12,12 +12,12 @@ import Checkout from "../src/pages/checkout.jsx";
 import Wishlist from "../src/pages/wishlist.jsx";
 import Login from "../src/pages/login.jsx";
 import Cart from "../src/pages/cart.jsx";
-
 import Smartphones from "../src/Catpages/smartphones.jsx";
 import Laptop from "../src/Catpages/laptop.jsx";
 import Swatch from "../src/Catpages/swatch.jsx";
 import DetailsPage from "../src/pages/detailspg.jsx";
 
+import QuickViewCard from "../src/pages/QuickViewCard.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -27,6 +27,8 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+
+      <QuickViewCard />
 
       {/* Routes for dynamic content */}
       <Routes>
@@ -64,7 +66,6 @@ function App() {
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
-
         <Route path="/smartphones" element={<Smartphones />} />
         <Route path="/laptop" element={<Laptop />} />
         <Route path="/swatch" element={<Swatch />} />

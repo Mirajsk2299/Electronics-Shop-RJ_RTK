@@ -1,0 +1,112 @@
+.adddd-button {
+  background-color: #caa35b;
+  color: #fff;
+  /* padding: 10px 18px; */
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: auto;
+  min-width: 105px;
+  min-height: 40px;
+}
+
+/* Hover */
+.adddd-button:hover {
+  background-color: #b5d331;
+  color: #222;
+  transform: scale(1.05);
+}
+
+/* Active (click) */
+.adddd-button:active {
+  background-color: #62a8c4;
+  color: #000;
+  transform: scale(0.97);
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  .adddd-button {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+/* ✨ DETAILS BUTTON STYLE */
+.dtls-btn {
+  background-color: #4fbd61; /* light warm tone */
+  color: #333; /* dark text */
+  /* padding: 10px 18px; */
+  /* padding: 6px 12px;  */
+  width: auto; /* make it fit content */
+  max-width: 90px; /* optional limit */
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  /* font-weight: 500; */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* 🖱️ Hover effect */
+.dtls-btn:hover {
+  background-color: #bdbd77; /* soft light tone */
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* 🖱️ Active (click) */
+.dtls-btn:active {
+  background-color: #383f1b;
+  color: #000;
+  transform: scale(0.97);
+}
+
+/* 📱 Responsive for mobile screens */
+@media (max-width: 600px) {
+  .dtls-btn {
+    /* width: 100%; */
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+/* ❤️ WISHLIST BUTTON */
+.wshlst-btn {
+  background-color: #deded1; /* soft neutral tone */
+  color: #d62828; /* red text for heart */
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* 🖱️ Hover */
+.wshlst-btn:hover {
+  background-color: #fbf3d1; /* warm tone */
+  color: #a4161a; /* darker red on hover */
+  transform: scale(1.05);
+}
+
+/* 🖱️ Active */
+.wshlst-btn:active {
+  background-color: #c5c7bc;
+  color: #000;
+  transform: scale(0.97);
+}
+
+/* 📱 Responsive for mobile */
+@media (max-width: 600px) {
+  .wshlst-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+}

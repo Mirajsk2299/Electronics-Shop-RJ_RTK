@@ -12,7 +12,9 @@ const Landingimg = () => {
         <div className="img-text">
           <h3>Buy Smartphones</h3>
           <p>Discover the latest smartphones at unbeatable prices!</p>
-          <button>Explore More →</button>
+          <button className="py-3 h-10 w-36 flex text-center justify-center items-center hover:border-2 rounded-lg hover:text-green-700 hover:text-lg font-bold">
+            Explore More →
+          </button>
         </div>
       </div>
       <div className="child-two">

@@ -1,0 +1,20 @@
+/* Import Tailwind layers in order */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles */
+@layer base {
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+}
+
+/* Example custom utilities */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px #000000;
+  }
+}

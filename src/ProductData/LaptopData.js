@@ -5,7 +5,7 @@ export const laptops = [
     brand: "Apple",
     price: 239900,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1612831455542-5b1b5a3f1f8b",
+    image: "https://images.pexels.com/photos/18105/pexels-photo.jpg",
     rating: 4.9,
     stock: 10,
   },
@@ -15,7 +15,8 @@ export const laptops = [
     brand: "Dell",
     price: 159999,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1612831455543-8d3b6b1f0a9a",
+    image:
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     rating: 4.7,
     stock: 15,
   },
@@ -25,7 +26,8 @@ export const laptops = [
     brand: "HP",
     price: 149999,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1612831455544-6f1c8c3d7b4f",
+    image:
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332",
     rating: 4.6,
     stock: 12,
   },
@@ -35,7 +37,8 @@ export const laptops = [
     brand: "Lenovo",
     price: 169999,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1612831455545-9b2c7d4f3a6c",
+    image:
+      "https://images.unsplash.com/photo-1760604359590-0f0dc7dbbf3c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1269",
     rating: 4.8,
     stock: 8,
   },
@@ -45,7 +48,8 @@ export const laptops = [
     brand: "Asus",
     price: 139999,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1612831455546-7d4b2a5e3c7f",
+    image:
+      "https://plus.unsplash.com/premium_photo-1752589341332-eb7f91d4387e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1171",
     rating: 4.7,
     stock: 20,
   },
@@ -55,7 +59,8 @@ export const laptops = [
     brand: "Acer",
     price: 124999,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1612831455547-6a1f4b2e8c3d",
+    image:
+      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332",
     rating: 4.5,
     stock: 18,
   },
@@ -65,7 +70,8 @@ export const laptops = [
     brand: "Microsoft",
     price: 129999,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1612831455548-5b3d2f6a7c1b",
+    image:
+      "https://plus.unsplash.com/premium_photo-1675538078410-2cec60aa046c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=996",
     rating: 4.6,
     stock: 14,
   },
@@ -75,7 +81,8 @@ export const laptops = [
     brand: "Razer",
     price: 219999,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1612831455549-4a2c6d5b8a2f",
+    image:
+      "https://images.unsplash.com/photo-1563442545335-791cccad4638?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1199s",
     rating: 4.8,
     stock: 7,
   },

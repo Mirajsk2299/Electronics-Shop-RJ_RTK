@@ -3,39 +3,26 @@ import { laptops } from "../ProductData/LaptopData.js";
 import Btnaddcart from "../buttons/btnaddcart";
 import DetailsButton from "../buttons/detailsbtn";
 import WishlistButton from "../buttons/wishlistbtn";
+import "../styles/catpages.css";
 
 const Laptop = () => {
   const renderlaptop = laptops.slice(0, 8); // first 8 laptops
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Laptops</h1>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)", // 4 cards per row
-          gap: "20px",
-        }}
-      >
+    <div className="category-page">
+      <h1 className="category-title">Laptops</h1>
+      <div className="product-grid">
         {renderlaptop.map((laptop) => (
-          <div
-            key={laptop.id}
-            style={{
-              border: "1px solid #ccc",
-              borderRadius: "8px",
-              padding: "10px",
-              textAlign: "center",
-            }}
-          >
+          <div key={laptop.id} className="product-card">
             <img
               src={laptop.image}
               alt={laptop.name}
-              style={{ width: "100%", borderRadius: "8px" }}
+              className="product-image"
             />
-            <h3>{laptop.name}</h3>
-            <p>Brand: {laptop.brand}</p>
-            <p>Price: ₹{laptop.price}</p>
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
+            <h3 className="product-name">{laptop.name}</h3>
+            <p className="product-brand">Brand: {laptop.brand}</p>
+            <p className="product-price">Price: ₹{laptop.price}</p>
+            <div className="product-buttons">
               <Btnaddcart product={laptop} />
               <WishlistButton product={laptop} />
               <DetailsButton product={laptop} />

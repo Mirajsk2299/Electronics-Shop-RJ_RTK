@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -36,7 +37,8 @@ const Register = () => {
         </form>
 
         <div className="back-link">
-          <a href="/login">Back to Login</a>
+          <Link to="/login">Back to Login</Link>
+          {/* <a href="/login">Back to Login</a> */}
         </div>
       </div>
     </div>

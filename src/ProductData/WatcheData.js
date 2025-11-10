@@ -5,7 +5,7 @@ export const watches = [
     brand: "Apple",
     price: 49999,
     category: "Smartwatches",
-    image: "https://images.unsplash.com/photo-1684204342476-4b2a2d8f8a7c",
+    image: "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
     rating: 4.9,
     stock: 12,
   },
@@ -15,7 +15,8 @@ export const watches = [
     brand: "Samsung",
     price: 34999,
     category: "Smartwatches",
-    image: "https://images.unsplash.com/photo-1684204342477-5c3b2d7f9a1e",
+    image:
+      "https://images.unsplash.com/photo-1632794716789-42d9995fb5b6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     rating: 4.8,
     stock: 15,
   },
@@ -25,7 +26,8 @@ export const watches = [
     brand: "Fitbit",
     price: 14999,
     category: "Smartwatches",
-    image: "https://images.unsplash.com/photo-1684204342478-6d1c3e8f7b2f",
+    image:
+      "https://images.unsplash.com/photo-1461141346587-763ab02bced9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1400",
     rating: 4.5,
     stock: 20,
   },
@@ -35,7 +37,8 @@ export const watches = [
     brand: "Garmin",
     price: 22999,
     category: "Smartwatches",
-    image: "https://images.unsplash.com/photo-1684204342479-7a2b4c5d6e3f",
+    image:
+      "https://images.unsplash.com/photo-1596446752015-e50f861877e9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     rating: 4.6,
     stock: 10,
   },
@@ -45,7 +48,8 @@ export const watches = [
     brand: "Fossil",
     price: 19999,
     category: "Smartwatches",
-    image: "https://images.unsplash.com/photo-1684204342480-8b3c5d6e7f4a",
+    image:
+      "https://images.unsplash.com/photo-1718309602791-8f3cc83840b7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974",
     rating: 4.4,
     stock: 18,
   },
@@ -55,7 +59,8 @@ export const watches = [
     brand: "Amazfit",
     price: 12999,
     category: "Smartwatches",
-    image: "https://images.unsplash.com/photo-1684204342481-9c4d6f7e8a5b",
+    image:
+      "https://images.unsplash.com/photo-1722445423163-f57f92ea9f78?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     rating: 4.3,
     stock: 25,
   },
@@ -65,7 +70,8 @@ export const watches = [
     brand: "Huawei",
     price: 17999,
     category: "Smartwatches",
-    image: "https://images.unsplash.com/photo-1684204342482-0d5e7f8a9b6c",
+    image:
+      "https://images.unsplash.com/photo-1640327981298-befcf50b6ca9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     rating: 4.5,
     stock: 14,
   },
@@ -75,7 +81,8 @@ export const watches = [
     brand: "Realme",
     price: 8999,
     category: "Smartwatches",
-    image: "https://images.unsplash.com/photo-1684204342483-1e6f8a9b0c7d",
+    image:
+      "https://images.unsplash.com/photo-1723794733096-599e45de401c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     rating: 4.2,
     stock: 30,
   },

@@ -2,6 +2,7 @@
 import { useContext } from "react";
 import { DetailsContext } from "../context/DetailsContext";
 import { useNavigate } from "react-router-dom";
+import "../styles/buttonstyles.css";
 
 export default function DetailsButton({ product }) {
   const { setDetailsProduct } = useContext(DetailsContext);
@@ -12,5 +13,9 @@ export default function DetailsButton({ product }) {
     navigate("/detailspg");
   };
 
-  return <button onClick={directdetails}>Details</button>;
+  return (
+    <button className="dtls-btn" onClick={directdetails}>
+      Details
+    </button>
+  );
 }

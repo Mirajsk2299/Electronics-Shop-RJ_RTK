@@ -3,41 +3,23 @@ import { watches } from "../ProductData/WatcheData.js";
 import Btnaddcart from "../buttons/btnaddcart";
 import DetailsButton from "../buttons/detailsbtn";
 import WishlistButton from "../buttons/wishlistbtn";
+import "../styles/catpages.css";
 
 const Swatch = () => {
-  const renderwatches = watches.slice(0, 8);
+  const renderwatches = watches.slice(0, 8); // first 8 watches
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Smartwatches</h1>
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)", // 4 cards per row
-          gap: "20px",
-        }}
-      >
+    <div className="category-page">
+      <h1 className="category-title">Smartwatches</h1>
+      <div className="product-grid">
         {renderwatches.map((watch) => (
-          <div
-            key={watch.id}
-            style={{
-              border: "1px solid #ccc",
-              borderRadius: "8px",
-              padding: "10px",
-              textAlign: "center",
-            }}
-          >
-            <img
-              src={watch.image}
-              alt={watch.name}
-              style={{ width: "100%", borderRadius: "8px" }}
-            />
-            <h3>{watch.name}</h3>
-            <p>Brand: {watch.brand}</p>
-            <p>Price: ₹{watch.price}</p>
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
+          <div key={watch.id} className="product-card">
+            <img src={watch.image} alt={watch.name} className="product-image" />
+            <h3 className="product-name">{watch.name}</h3>
+            <p className="product-brand">Brand: {watch.brand}</p>
+            <p className="product-price">Price: ₹{watch.price}</p>
+            <div className="product-buttons">
               <Btnaddcart product={watch} />
-
               <WishlistButton product={watch} />
               <DetailsButton product={watch} />
             </div>

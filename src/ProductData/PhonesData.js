@@ -5,7 +5,8 @@ export const phonesdata = [
     brand: "Apple",
     price: 129900,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1695048130911-1c8c0a57a2f8",
+    image:
+      "https://images.pexels.com/photos/18525574/pexels-photo-18525574.jpeg",
     rating: 4.8,
     stock: 12,
   },
@@ -15,7 +16,8 @@ export const phonesdata = [
     brand: "Samsung",
     price: 124999,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1677031999466-5733da8ff75a",
+    image:
+      "https://images.pexels.com/photos/20348037/pexels-photo-20348037.jpeg",
     rating: 4.7,
     stock: 20,
   },
@@ -25,7 +27,8 @@ export const phonesdata = [
     brand: "OnePlus",
     price: 66999,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1612831662375-295c1003d3e0",
+    image:
+      "https://images.unsplash.com/photo-1659079382268-8a050db59a75?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1209",
     rating: 4.5,
     stock: 25,
   },
@@ -35,7 +38,8 @@ export const phonesdata = [
     brand: "Google",
     price: 84999,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1682720448371-2f9aa69bc2c7",
+    image:
+      "https://images.unsplash.com/photo-1697355360151-2866de32ad4d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     rating: 4.6,
     stock: 15,
   },
@@ -45,7 +49,8 @@ export const phonesdata = [
     brand: "Xiaomi",
     price: 72999,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1688300794530-9d4511ef5e2b",
+    image:
+      "https://images.unsplash.com/photo-1702451462735-3f0ba7679641?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074",
     rating: 4.4,
     stock: 18,
   },
@@ -55,7 +60,8 @@ export const phonesdata = [
     brand: "Samsung",
     price: 89999,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1688310539340-1e2f0a62b8bb",
+    image:
+      "https://images.unsplash.com/photo-1676121228785-f1dcd462025f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     rating: 4.3,
     stock: 10,
   },
@@ -65,7 +71,8 @@ export const phonesdata = [
     brand: "Apple",
     price: 99999,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1688310503471-7ed35f0b7c56",
+    image:
+      "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169",
     rating: 4.7,
     stock: 22,
   },
@@ -75,7 +82,8 @@ export const phonesdata = [
     brand: "Realme",
     price: 44999,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1688310567812-92a7b8ec3347",
+    image:
+      "https://images.unsplash.com/photo-1732998369893-af4c9a4695fe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332",
     rating: 4.2,
     stock: 30,
   },

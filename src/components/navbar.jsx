@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="search-container">
           <form className="srch-inp">
             <input placeholder="Search..." />
-            <button>Search</button>
+            <button className="srchinp-btn">Search</button>
           </form>
         </div>
 

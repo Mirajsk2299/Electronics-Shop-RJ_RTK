@@ -1,6 +1,6 @@
 /*---------- Login Stles -------------*/
 .login-container {
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@ input {
 /*------------ Forgot password ------------*/
 
 .forgot-container {
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,7 +164,7 @@ input {
 /*---------- Register Page -----------*/
 
 .register-container {
-  height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
