@@ -38,9 +38,17 @@ const Hotselling = () => {
                 <Btnaddcart product={product} />
                 <button
                   onClick={() => dispatch(openQuickView(product))}
-                  className="bg-[#b5d331] text-[#222] font-semibold py-2 px-4 rounded-lg 
-             hover:bg-green-700 hover:text-[#222] transform hover:scale-105 
-             transition duration-300"
+                  className="
+      bg-[#4c7a7e]       /* background color */
+      w-45               /* width: 6rem */
+      text-white         /* text color */
+      font-semibold
+      py-2 px-4
+      rounded-lg
+      hover:bg-[#92dfdb] /* hover color */
+      hover:shadow-lg    /* adds shadow on hover */
+      transition duration-300
+    "
                 >
                   Quick View
                 </button>
@@ -71,9 +79,17 @@ const Hotselling = () => {
             <span>Get Flat 30% Off</span>
 
             <button
-              className="bg-[#b5d331] text-[#222] font-semibold py-2 px-4 rounded-lg 
-             hover:bg-green-700 hover:text-[#222] transform hover:scale-105 
-             transition duration-300"
+              className="
+      bg-[#4c7a7e]       /* background color */
+      w-45               /* width: 6rem */
+      text-white         /* text color */
+      font-semibold
+      py-2 px-4
+      rounded-lg
+      hover:bg-[#92dfdb] /* hover color */
+      hover:shadow-lg    /* adds shadow on hover */
+      transition duration-300
+    "
               onClick={() => dispatch(openQuickView(hotProducts[6]))}
             >
               Quick View

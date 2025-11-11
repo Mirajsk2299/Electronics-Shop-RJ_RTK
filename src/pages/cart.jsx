@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ButtonContext } from "../context/ButtonContext";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const { cart, increaseQty, decreaseQty, removeItem, grandTotal } =
@@ -13,7 +14,7 @@ const Cart = () => {
         <p className="text-gray-500 text-lg">No items in cart</p>
       )}
 
-      <div className="flex flex-wrap justify-center gap-6 w-full">
+      <div className="flex flex-wrap justify-center gap-9 w-full">
         {cart.map((item) => (
           <div
             key={item.id}
@@ -64,7 +65,16 @@ const Cart = () => {
       </div>
 
       {cart.length > 0 && (
-        <h2 className="text-2xl font-bold mt-6">Grand Total: ₹{grandTotal}</h2>
+        <>
+          <h2 className="text-2xl font-bold mt-6">
+            Grand Total: ₹{grandTotal}
+          </h2>
+          <Link to="/checkout">
+            <button className="w-[10rem] py-2 bg-[#4c7a7e] text-white font-semibold rounded-lg  hover:bg-[#97b1b0]">
+              Checkout
+            </button>
+          </Link>
+        </>
       )}
     </div>
   );

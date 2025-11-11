@@ -97,16 +97,16 @@
   color: #fff;
 }
 
-/* .adddd-button {
-  background-color: #4c7a7e; 
-  width: 5rem;
+.adddd-button {
+  background-color: #4c7a7e;
+  width: 7.5rem;
 }
 
 .adddd-button:hover {
   background-color: #92dfdb;
-  transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
-} */
+  /* transform: translateY(-3px); */
+  /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25); */
+}
 
 /* Wishlist Button */
 .wshlst-btn {
