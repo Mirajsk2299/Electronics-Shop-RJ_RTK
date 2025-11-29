@@ -28,6 +28,7 @@ const Footer = () => {
             easier, and more connected.
           </p>
         </div>
+
         <div className="footer-intro">
           <h2>More About Store </h2>
           <p>Multiple Branches</p>
@@ -38,7 +39,11 @@ const Footer = () => {
           <h2>Connect With US</h2>
           <div className="footer-icons">
             <div className="one-icon">
-              <a href="#">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={faFacebookF}
                   size="2x"
@@ -46,8 +51,13 @@ const Footer = () => {
                 />
               </a>
             </div>
+
             <div className="one-icon">
-              <a href="#">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={faInstagram}
                   size="2x"
@@ -57,7 +67,11 @@ const Footer = () => {
             </div>
 
             <div className="one-icon">
-              <a href="#">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faTwitter} size="2x" color="#1e1e1fff" />
               </a>
             </div>
@@ -68,6 +82,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
       <hr
         style={{
           border: "none",
