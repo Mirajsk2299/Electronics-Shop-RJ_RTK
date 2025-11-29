@@ -30,9 +30,7 @@ function App() {
 
       <QuickViewCard />
 
-      {/* Routes for dynamic content */}
       <Routes>
-        {/* Home page when landed the landing page */}
         <Route
           path="/"
           element={
@@ -55,7 +53,6 @@ function App() {
           }
         />
 
-        {/* Other pages for navigating */}
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<Forgotpass />} />

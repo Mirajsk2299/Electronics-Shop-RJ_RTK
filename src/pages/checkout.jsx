@@ -25,7 +25,6 @@ const Checkout = () => {
         onSubmit={handleSubmit}
         style={{ display: "flex", gap: "40px", alignItems: "flex-start" }}
       >
-        {/* Billing Details */}
         <div
           className="billing-details"
           style={{
@@ -63,7 +62,6 @@ const Checkout = () => {
           </div>
         </div>
 
-        {/* ✅ Order Summary */}
         <div
           className="order-summary"
           style={{
@@ -107,6 +105,7 @@ const Checkout = () => {
                 }}
               >
                 <span>{item.name}</span>
+                <span>{item.quantity}</span>
                 <span>₹{item.price * item.quantity}</span>
                 <span
                   style={{
@@ -138,7 +137,6 @@ const Checkout = () => {
             <span>₹{grandTotal}</span>
           </div>
 
-          {/* ✅ Now this is inside the form */}
           <button
             type="submit"
             style={{

@@ -11,6 +11,6 @@ const Btnaddcart = ({ product }) => {
       </button>
     </div>
   );
-};
+};   
 
 export default Btnaddcart;

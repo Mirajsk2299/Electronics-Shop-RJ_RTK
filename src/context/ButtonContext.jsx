@@ -3,11 +3,8 @@ import React, { createContext, useState } from "react";
 export const ButtonContext = createContext();
 
 export const ButtonProvider = ({ children }) => {
-  // logic here
-
   const [cart, setCart] = useState([]);
 
-  // Add product to cart
   const addToCart = (product) => {
     const existing = cart.find((item) => item.id === product.id);
     if (existing) {
@@ -23,7 +20,6 @@ export const ButtonProvider = ({ children }) => {
     }
   };
 
-  // Increase quantity
   const increaseQty = (id) => {
     setCart(
       cart.map((item) =>
@@ -32,7 +28,6 @@ export const ButtonProvider = ({ children }) => {
     );
   };
 
-  // Decrease quantity
   const decreaseQty = (id) => {
     setCart(
       cart.map((item) =>
@@ -43,12 +38,10 @@ export const ButtonProvider = ({ children }) => {
     );
   };
 
-  // Remove product
   const removeItem = (id) => {
     setCart(cart.filter((item) => item.id !== id));
   };
 
-  // Grand Total
   const grandTotal = cart.reduce(
     (total, item) => total + item.price * item.quantity,
     0

@@ -72,7 +72,6 @@
 
 .srch-inp button {
   width: 5rem;
-  /* border: none; */
   cursor: pointer;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -253,7 +252,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative; /* makes text positioning relative to this div */
+  position: relative;
   display: inline-block;
 }
 
@@ -294,15 +293,6 @@
   font-size: 16px;
   margin-bottom: 15px;
 }
-
-/* .img-text button {
-  font-size: 16px;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  background: none;
-  color: aliceblue;
-} */
 
 /*-----------------   Policy   -------------*/
 
@@ -627,7 +617,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #f2f4f7; */
   font-family: Arial, sans-serif;
   gap: 20px;
 }

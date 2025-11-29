@@ -18,7 +18,7 @@ const Category = () => {
       >
         <button
           className="category-btn "
-          onClick={() => navigate("/smartphones")}
+          onClick={() => navigate("/smartphones")}   
         >
           Smart Phones
         </button>

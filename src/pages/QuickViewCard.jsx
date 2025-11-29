@@ -1,4 +1,3 @@
-// src/components/QuickViewCard.jsx
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { closeQuickView } from "../redux/btns/quickviewSlice.js";
@@ -7,7 +6,7 @@ const QuickViewCard = () => {
   const dispatch = useDispatch();
   const { product, isOpen } = useSelector((state) => state.quickView);
 
-  if (!isOpen || !product) return null; // don't render if closed
+  if (!isOpen || !product) return null;
 
   return (
     <div className="fixed top-0 left-0 w-full h-screen bg-black bg-opacity-50 flex justify-center items-center z-[1000]">

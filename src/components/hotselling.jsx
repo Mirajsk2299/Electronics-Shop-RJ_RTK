@@ -77,7 +77,7 @@ const Hotselling = () => {
           <div className="rsale-btnbox flex flex-row  items-center justify-center gap-3 mb-1 ">
             <Btnaddcart product={hotProducts[6]} />
             <span>Get Flat 30% Off</span>
-
+   
             <button
               className="
       bg-[#4c7a7e]       /* background color */

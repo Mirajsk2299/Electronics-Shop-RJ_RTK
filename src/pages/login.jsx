@@ -6,11 +6,11 @@ const Login = () => {
   const navigate = useNavigate();
 
   const directforgot = () => {
-    navigate("/forgotpass"); // your page route
+    navigate("/forgotpass");
   };
 
   const directregister = () => {
-    navigate("/register"); // your page route
+    navigate("/register");
   };
 
   return (

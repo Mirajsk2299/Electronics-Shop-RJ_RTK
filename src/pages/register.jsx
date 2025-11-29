@@ -38,7 +38,6 @@ const Register = () => {
 
         <div className="back-link">
           <Link to="/login">Back to Login</Link>
-          {/* <a href="/login">Back to Login</a> */}
         </div>
       </div>
     </div>

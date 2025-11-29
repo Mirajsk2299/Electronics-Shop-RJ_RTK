@@ -1,9 +1,7 @@
-/* Import Tailwind layers in order */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Your custom styles */
 @layer base {
   *,
   ::after,
@@ -12,7 +10,6 @@
   }
 }
 
-/* Example custom utilities */
 @layer utilities {
   .text-shadow {
     text-shadow: 2px 2px #000000;
